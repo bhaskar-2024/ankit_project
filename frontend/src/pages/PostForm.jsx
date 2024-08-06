@@ -43,7 +43,7 @@ const PostForm = () => {
             <div className="mb-4">
               <label className="block font-bold mb-2">URL:</label>
               <input
-                type="text"
+                type="text" 
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}
                 className={`w-full px-3 py-2 border ${darkMode ? 'border-gray-600 bg-gray-700 text-white' : 'border-gray-300 bg-white text-gray-800'} rounded-lg focus:outline-none focus:ring ${darkMode ? 'focus:ring-gray-500' : 'focus:ring-blue-200'}`}
@@ -81,3 +81,5 @@ const PostForm = () => {
 };
 
 export default PostForm;
+
+//comment
